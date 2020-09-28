@@ -12,8 +12,14 @@ color: white;
 .p-white{
 color: white;
 }
+.h3-white{
+  color: white;
+}
 
 .h4-top-marg {
+  margin-top: 70px;
+}
+.p-margin-top {
   margin-top: 70px;
 }
 
@@ -59,4 +65,8 @@ color: white;
 
 .ft-bottom-copy{
   background-color: #1a252f;
+}
+
+.start-bs{
+  background-color: azure;
 }
