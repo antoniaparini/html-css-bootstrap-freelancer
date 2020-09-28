@@ -22,3 +22,19 @@ body{
 .p-white{
 color: white;
 }
+
+.img-color {
+  background-color: pink;
+}
+
+.icon-color {
+  background-color: azure;
+}
+
+.ctc-form {
+  background-color: #e6e6e6;
+}
+
+.btn-bkgr {
+  background-color: #66ffcc;
+}
