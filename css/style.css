@@ -5,7 +5,11 @@ body{
 }
 
 /***UTILITIES***/
-.col-xs-12{
+
+.main-white{
+  background-color: white;
+}
+.background-blue{
   height: 150px;
   background-color: #2c3e50;
 }
