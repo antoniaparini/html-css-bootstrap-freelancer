@@ -4,6 +4,19 @@ body{
 
 }
 
+/***TYPOGRAPHY***/
+
+.h2-white{
+color: white;
+}
+.p-white{
+color: white;
+}
+
+.h4-top-marg {
+  margin-top: 70px;
+}
+
 /***UTILITIES***/
 
 .main-white{
@@ -14,13 +27,14 @@ body{
   background-color: #2c3e50;
 }
 
+
 .menu{
   height: 100px;
   background-color: #1abc9c;
 }
 
-.p-white{
-color: white;
+.col-margin{
+  margin-top: 20px;
 }
 
 .img-color {
@@ -37,4 +51,8 @@ color: white;
 
 .btn-bkgr {
   background-color: #66ffcc;
+}
+
+.row-pad{
+  padding-bottom: 20px;
 }
