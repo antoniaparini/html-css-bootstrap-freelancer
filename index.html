@@ -5,24 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Freelancer</title>
+    <!-- Google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--Styles-->
     <link rel="stylesheet" href="./css/style.css">
-    <!--Fonts-->
+
   </head>
   <body>
     <!--Header-->
     <header>
-    <!--Navigation Header e Menu-->
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 background-blue">
+      <!-- Navigation-->
+      <nav class="navbar navbar-default background-blue">
+        <div class="container">
+      <!-- Main navigation and toggle -->
+          <div class="navbar-header col-xs-12 background-blue">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#"><h3 class="text-center h3-white title-main-nav">START BOOTSTRAP</h3></a>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right title-main-nav">
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+                </ul>
+              </li>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="container">
+        <div class="row display clear">
+          <div class="col-xs-12 col-md-5 background-blue">
             <h3 class="text-center h3-white">LOGO BOOTSTRAP</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 menu">
+        <div class="row display clear">
+          <div class="col-xs-12 col-md-5 menu">
             <h3 class="text-center h3-white">MENU</h3>
           </div>
         </div>
@@ -35,7 +60,7 @@
             <h2 class="text-center">IMMAGINE</h2>
           </div>
         </div>
-      </div>
+      </div>-->
     </header>
   <!--Main Content-->
     <main>
@@ -174,12 +199,11 @@
         <div class="col-xs-12 background-blue">
           <h4 class="text-center h2-white h4-top-marg">AROUND THE WEB</h4>
           <p class="text-center p-white">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
-
         </div>
       </div>
       <!--Footer Bottom Copyright-->
       <div class="row">
-        <div class="col-xs-12 p-margin-top ft-bottom-copy">
+        <div class="col-xs-12 ft-bottom-copy">
           <p class="text-center p-white ">Copyright © Your Website 2020</p>
         </div>
       </div>
