@@ -67,7 +67,8 @@ body{
 
 /***AREA PORTFOLIO**/
 .portfolio-item{
-  
+  position:relative;
+  margin-bottom: 30px;
 }
 
 
