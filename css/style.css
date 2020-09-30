@@ -217,6 +217,34 @@ color: white;
 .button .icon-left{
   margin-right: 8px;
 }
+
+/**CONTACT FORM**/
+.contacts .form-group{
+  margin-bottom: 0px;
+
+}
+.contacts input,
+.contacts textarea {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.contacts input {
+  padding: 0;
+  height:100px;
+  line-height: 100px;
+}
+
+.contacts textarea {
+  margin-bottom: 30px;
+  padding: 30px 0;
+  height: 300px;
+}
+
 /***UTILITIES***/
 .navbar {
     position: relative;
